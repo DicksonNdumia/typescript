@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon   src/dataTypes.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "type": "commonjs",
   "devDependencies": {
     "chalk": "^5.6.2",
+    "husky": "^9.1.7",
     "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
